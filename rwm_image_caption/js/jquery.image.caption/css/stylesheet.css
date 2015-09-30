@@ -1,0 +1,24 @@
+/*************************************************
+      Image Caption CSS 
+      @author Fabio Mangolini
+      http://www.responsivewebmobile.com
+**************************************************/
+.image-overlay-container {
+  position: relative;
+}
+
+.image-overlay {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  color: #FFFFFF;
+  padding: 20px;
+}

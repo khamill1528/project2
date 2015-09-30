@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<title>Responsive Web Mobile - Image Caption</title>
+
+	<!-- Menu Overlay Css -->	
+	<link rel="stylesheet" href="./js/jquery.image.caption/css/stylesheet.css" />
+
+</head>
+<body>
+
+	<!-- Image Caption Item - Repeat one of this for each image -->
+	<div class="image-overlay-container">
+		<div class="image-overlay"></div>
+		<div class="image-caption">
+			<h4>This is Image Caption</h4>
+			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+		</div>
+		
+		<img class="to-hover" src="./img/image_01.jpg" alt="" />
+	</div>
+	<!-- /Image Caption Item - Repeat one of this for each image -->
+	
+	<script src="./js/jquery-1.10.0.min.js"></script>
+	
+	<!-- Image Caption jQuery -->
+	<script src="./js/jquery.image.caption/js/jquery.image.caption.js"></script>
+
+	<!-- Image Caption Init -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			//the parameter you can control il the opacity of the layer, 
+			//the ovelray color and the caption text color, as you can see
+			//in the example below. For more design customization edit the
+			//stylesheet.ccs file.
+			$.ImageCaption({opacity: 0.5, color : '#FFFFFF', bgcolor: '#000000'});
+		});
+	</script>
+	<!-- Image Caption Init -->
+</body>
+</html>
